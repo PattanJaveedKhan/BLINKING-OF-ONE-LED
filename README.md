@@ -1,58 +1,35 @@
 # Blinking LED 💡
 
-This project demonstrates how to make an LED blink at regular intervals using a microcontroller (Arduino).  
-It’s one of the simplest and most important beginner projects to understand how digital output and timing work in embedded systems.
+This is a simple project where I made an LED blink using Arduino.  
+It helps to understand how to use digital pins for output and how the delay function works.
 
 ---
 
-## 🔧 Components Used
-- Arduino Uno (or any compatible microcontroller)
+## Components Used
+- ESP32
 - LED
-- Resistor (220Ω)
-- Jumper wires
+- 220Ω Resistor
 - Breadboard
+- Jumper Wires
 
 ---
 
-## ⚙️ Working Principle
-The Arduino sends a HIGH signal to the GPIO pin to turn the LED ON and a LOW signal to turn it OFF.  
-By adding a small delay between these operations, the LED appears to blink continuously.
+## Working
+The Arduino turns the LED ON and OFF repeatedly with a small delay in between.  
+When the output pin is set to HIGH, the LED turns ON, and when it is LOW, the LED turns OFF.
 
 ---
 
-## 🧠 Learning Outcome
-- Basic GPIO output control  
-- Understanding of digital HIGH/LOW signals  
-- Using the `digitalWrite()` and `delay()` functions in Arduino  
-- Setting up simple electronic circuits on a breadboard  
-
----
-
-## 📸 Demo
-![Blinking LED](images/blink-demo.jpg)
-
----
-
-## 📽️ Video
-(https://github.com/user-attachments/assets/8c8bef15-3ad5-4207-b66e-bbfa1183cf91)
-
----
-
-## 📁 Code
-See `code/blink.ino`
-
-Example Arduino code:
+## Code
 ```cpp
-int ledPin = 13; // Built-in LED pin on most Arduino boards
+int led = 13;   // LED connected to pin 13
 
 void setup() {
-  pinMode(ledPin, OUTPUT); // Set the pin as output
+  pinMode(led, OUTPUT);
 }
 
 void loop() {
-  digitalWrite(ledPin, HIGH); // Turn LED ON
-  delay(1000);                // Wait 1 second
-  digitalWrite(ledPin, LOW);  // Turn LED OFF
-  delay(1000);                // Wait 1 second
-}
+  digitalWrite(led, HIGH);  // Turn LED ON
+  delay(1000);              // Wait for 1 second
+  digi
 
