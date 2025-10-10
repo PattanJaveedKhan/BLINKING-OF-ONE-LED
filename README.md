@@ -34,7 +34,7 @@ By adding a small delay between these operations, the LED appears to blink conti
 ---
 
 ## 📽️ Video
-[▶ Watch demo video](https://youtu.be/YOUR_VIDEO_LINK)
+(https://github.com/user-attachments/assets/8c8bef15-3ad5-4207-b66e-bbfa1183cf91)
 
 ---
 
