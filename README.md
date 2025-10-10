@@ -31,8 +31,8 @@ void setup() {
 }
 
 void loop() {
-  digitalWrite(led, HIGH);  // Turn LED ON
-  delay(1000);              // Wait for 1 second
-  digitalWrite(led, LOW);   // Turn LED OFF
-  delay(1000);              // Wait for 1 second
+  digitalWrite(led, HIGH); 
+  delay(1000);              
+  digitalWrite(led, LOW);   
+  delay(1000);              
 }
