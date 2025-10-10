@@ -19,18 +19,22 @@ The Arduino turns the LED ON and OFF repeatedly with a small delay in between.
 When the output pin is set to HIGH, the LED turns ON, and when it is LOW, the LED turns OFF.
 
 ---
-![video](https://github.com/user-attachments/assets/8c8bef15-3ad5-4207-b66e-bbfa1183cf91)
 
-## Code
+
+
+
+https://github.com/user-attachments/assets/11899e7c-e2f8-4712-9b25-2237eeef4dc8
+
+code
 ```cpp
-int led = 13;   // LED connected to pin 13
+int led = 13;   
 
 void setup() {
   pinMode(led, OUTPUT);
 }
 
 void loop() {
-  digitalWrite(led, HIGH);  // Turn LED ON
-  delay(1000);              // Wait for 1 second
+  digitalWrite(led, HIGH);  
+  delay(1000);             
   digi
 
