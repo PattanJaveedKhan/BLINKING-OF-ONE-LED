@@ -18,10 +18,11 @@ It helps to understand how to use digital pins for output and how the delay func
 The Arduino turns the LED ON and OFF repeatedly with a small delay in between.  
 When the output pin is set to HIGH, the LED turns ON, and when it is LOW, the LED turns OFF.
 
+
+
+https://github.com/user-attachments/assets/685ad3e2-530e-407e-b2d3-1006e80925a0
+
 ---
-
-https://github.com/user-attachments/assets/11899e7c-e2f8-4712-9b25-2237eeef4dc8
-
 code
 ```cpp
 int led = 13;   // LED connected to pin 13
